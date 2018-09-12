@@ -1,0 +1,34 @@
+{
+  "name": "booklib",
+  "version": "1.0.0",
+  "description": "Book Library API application code",
+  "main": "app.js",
+  "scripts": {
+    "start": "node ./app.js",
+    "dev": "nodemon ./app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Seal12/booklib.git"
+  },
+  "author": "Seale Raplai\u001b[D\u001b[D\u001b[Do\u001b[C\u001b[Dl\u001b[2~a\u001b[Da\u001b[D\u001b[2~ai\u001b[Di\u001b[D\u001b[Dii\u001b[\u001b[D\u001b[D\u001b[C\u001b[C\u001b[C\u001b[D\u001b[a\u001b[C\u001b[C",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Seal12/booklib/issues"
+  },
+  "homepage": "https://github.com/Seal12/booklib#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.4",
+    "dotenv": "^6.0.0",
+    "errorhandler": "^1.5.0",
+    "express": "^4.16.3",
+    "mongoose": "^5.2.14",
+    "mongoose-unique-validator": "^2.0.1",
+    "morgan": "^1.9.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.4"
+  }
+}
