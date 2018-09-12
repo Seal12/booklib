@@ -5,7 +5,7 @@ var uniqueValidator = require('mongoose-unique-validator');
 var BookSchema = new Schema({
   author: {type: Schema.Types.ObjectId, ref: 'Author'},
   description: String,
-  genre: [{type: Schame.Types.ObjectId, ref: 'Genre'}],
+  genre: [{type: Schema.Types.ObjectId, ref: 'Genre'}],
   rating: Number,
   title: {type: String, required: [true, "is required"], index: true},
 },{timestamps: true});

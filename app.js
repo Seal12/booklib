@@ -1,6 +1,6 @@
 let path = require('path'),
     express = require('express'),
-    bodyParser =  = require('bodyParser'),
+    bodyParser = require('body-parser'),
     cors = require('cors'),
     errorhandler = require('errorhandler'),
     mongoose = require('mongoose');
