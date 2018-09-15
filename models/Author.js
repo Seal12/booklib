@@ -8,9 +8,9 @@ var AuthorSchema = new Schema({
   bio: String,
   dob: Date,
   genres: [{type: Schema.Types.ObjectId, ref: 'Genre'}],
-  name: {type: String, required: [true, "is required"], index: true},
+  name: {type: String, required: [true, "is required"], index: true, unique: true},
 }, {timestamps: true});
 
-AuthorSchema.plugin(uniqueValidator, {message: ' already exists.'});
+AuthorSchema.plugin(uniqueValidator, {message: 'already exists.'});
 
 mongoose.model('Author', AuthorSchema);

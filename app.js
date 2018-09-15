@@ -26,7 +26,7 @@ if(!isProduction){
   app.use(errorhandler());
   mongoose.set('debug', true);
 }
-mongoose.connect(process.env.DB_URL);
+mongoose.connect(process.env.DB_URL, { useNewUrlParser: true });
 
 // Model imports
 require('./models');
