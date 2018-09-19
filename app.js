@@ -1,12 +1,12 @@
+// Load Node Environment Variable
+require('dotenv').config();
+
 let path = require('path'),
     express = require('express'),
     bodyParser = require('body-parser'),
     cors = require('cors'),
     errorhandler = require('errorhandler'),
     mongoose = require('mongoose');
-
-// Setup Environment
-require('dotenv').config();
 
 //NOTE: why not isDevelopment?
 let isProduction = process.env.NODE_ENV === 'production';
@@ -60,7 +60,7 @@ app.use(function(err, req, res, next){
   });
 });
 
-const PORT = process.env.PORT || 8081;
+const PORT = process.env.PORT || 8082;
 app.listen(PORT, function(){
   console.log(`BookLib [Info]: Started Server on port ${PORT}`);
 })

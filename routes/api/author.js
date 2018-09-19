@@ -9,7 +9,7 @@ router.post('/', (req, res, next) => {
 
   var newAuthor = new Author(author);
   newAuthor.save().then( () => {
-    return res.json({author: newAuthor})
+    return res.status(201).json({author: newAuthor})
   }).catch(next)
 })
 
