@@ -1,30 +1,22 @@
 # BookLib (REST API)
 Repository for a Book Library REST API
 
-## Getting Started
-
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
-
 ### Prerequisites
 
-What things you need to install the software and how to install them
+You need the following alreay installed on your pc in order to run the project:
+- NodeJS (prefably the latest)
+- MongoDB
 
 ### Installing
 
-A step by step series of examples that tell you have to get a development env running
+Clone the repository onto your local machine then run the following commads.
+- `npm install` - to instlal all the depencies
 
-Say what the step will be
+Once all dependencies have been install, run the following to start the server:
+- `npm start`
 
-```
-Give the example
-```
-
-And repeat
-
-```
-until finished
-```
-
-End with an example of getting some data out of the system or using it for a little demo
+or
+- `npm run dev`
+to run the server in development mode with hot reload.
 
 ## Branches
