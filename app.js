@@ -1,5 +1,6 @@
 // Load Node Environment Variable
-require('dotenv').config();
+const { error } = require('dotenv').config();
+if(error) throw error;
 
 let path = require('path'),
     express = require('express'),

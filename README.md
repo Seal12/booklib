@@ -5,6 +5,7 @@ Repository for a Book Library REST API
 
 You need the following alreay installed on your pc in order to run the project:
 - NodeJS (prefably the latest)
+- npm 
 - MongoDB
 
 ### Installing
@@ -20,3 +21,5 @@ or
 to run the server in development mode with hot reload.
 
 ## Branches
+
+- master
